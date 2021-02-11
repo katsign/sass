@@ -1,3 +1,8 @@
+$theme-colors: (
+  "primary": linen,
+  "danger": salmon
+);
+
 @import 'node_modules/bootstrap/scss/bootstrap';
 
 body {
@@ -44,68 +49,6 @@ a:hover {
 #btnWeather, #btnPlanner {
     margin-top: 8.5rem;
     margin-left: 6.5rem;
-}
-
-/* Overwriting Jumbotron Blob */
-.jumbotron {
-    background-color: linen;
-    margin: .25rem;
-}
-#diary {
-    background-color: lavenderblush;
-}
-#toDo {
-    background-color: blanchedalmond;
-}
-#raps {
-    background-color: mistyrose;
-}
-
-/* Btn Styles Blob */
-.btn-dark {
-background-color: thistle;
-border-color: thistle;
-}
-.btn-dark:hover {
-    background-color: plum;
-    border-color: plum;
-}
-.btn-dark:active,
-.btn-dark:focus {
-    background-color: plum;
-    border-color: plum!important;
-    box-shadow: 0 0 0 0.2rem plum!important;
-}
-.btn-secondary {
-    background-color: peachpuff;
-    border-color: peachpuff;
-}
-.btn-secondary:hover {
-    background-color: darksalmon;
-    border-color: darksalmon;
-}
-.btn-secondary:active,
-.btn-secondary:focus {
-    background-color: darksalmon;
-    border-color: darksalmon!important;
-    box-shadow: 0 0 0 0.2rem darksalmon!important;
-}
-.btn-light {
-    color: white;
-    background-color: pink;
-    border-color: pink;
-}
-.btn-light:hover {
-    color: white;
-    background-color: palevioletred;
-    border-color: palevioletred;
-}
-.btn-light:active,
-.btn-light:focus {
-    color: white;
-    background-color: palevioletred;
-    border-color: palevioletred!important;
-    box-shadow: 0 0 0 0.2rem palevioletred!important;
 }
 
 /* Media Queries */ 
