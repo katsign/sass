@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>linkDash</title>
+    <title>stylesLib</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
@@ -18,52 +18,73 @@
   </head>
 
   <body>
-   
-<!--Dashboard: Utilities-->
-<section class="container pt-5">
-  <hr />
-  <h5 class="card-title text-right">
-    <i class="material-icons" style="font-size: 24px">apps</i>
-    Dashboard | <span style="font-weight: 100">Utilities</span>
-  </h5>
-  <hr />
-  <div class="d-flex align-items-center justify-content-around">
-    <!--Child 1-->
-    <div class="jumbotron circle" id="weather">
-      <a class="btn btn-dark" id="btnWeather"
-            href="https://katsign.github.io/weather-dashboard/"
-            target="_blank"
-            role="button"
-            >Weather<br>Dashboard</a>
-    </div>
-        <!--Child 2-->
-        <div class="jumbotron circle" id="planner">
-          <a class="btn btn-secondary" id="btnPlanner"
-          href="https://katsign.github.io/day-planner/"
-          target="_blank"
-          role="button"
-          >No-Stress<br>Day Planner</a>
-        </div>
-  </div>
-</section>
-
-
-    <!--Dashboard: Docs-->
-    <section class="container">
+    <!--Dashboard: Utilities-->
+    <section class="container pt-5">
       <hr />
-      <h5 class="card-title">
-        <i class="material-icons" style="font-size: 24px">art_track</i>
-        Dashboard | <span style="font-weight: 100">Docs</span>
+      <h5 class="card-title text-right">
+        <i class="material-icons" style="font-size: 24px">apps</i>
+        Components | <span style="font-weight: 100">Utilities</span>
       </h5>
       <hr />
       <div class="d-flex align-items-center justify-content-around">
         <!--Child 1-->
+        <div class="jumbotron circle" id="weather"></div>
+        <!--Child 2-->
+        <div class="jumbotron circle" id="planner"></div>
+      </div>
+    </section>
+
+    <!--Dashboard: Buttons-->
+    <section class="container">
+      <hr />
+      <h5 class="card-title">
+        <i class="material-icons" style="font-size: 24px">art_track</i>
+        Styles | <span style="font-weight: 100">Buttons</span>
+      </h5>
+      <hr />
+      <div class="d-flex align-items-center justify-content-around">
+        <!--Primary-->
+        <a class="btn btn-primary" href="#" target="_blank" role="button"
+          >Sample<br />Primary</a
+        >
+        <!--Secondary-->
+        <a class="btn btn-secondary" href="#" target="_blank" role="button"
+          >Sample<br />Secondary</a
+        >
+        <!--Success-->
+        <a class="btn btn-success" href="#" target="_blank" role="button"
+          >Sample<br />Success</a
+        >
+        <!--Danger-->
+        <a class="btn btn-danger" href="#" target="_blank" role="button"
+          >Sample<br />Danger</a
+        >
+        <!--Warning-->
+        <a class="btn btn-warning" href="#" target="_blank" role="button"
+          >Sample<br />Warning</a
+        >
+        <!--Info-->
+        <a class="btn btn-info" href="#" target="_blank" role="button"
+          >Sample<br />Info</a
+        >
+        <!--Light-->
+        <a class="btn btn-light" href="#" target="_blank" role="button"
+          >Sample<br />Light</a
+        >
+        <!--Dark-->
+        <a class="btn btn-dark" href="#" target="_blank" role="button"
+          >Sample<br />Dark</a
+        >
+        <!--Link-->
+        <a class="btn btn-link" href="#" target="_blank" role="button"
+          >Sample<br />Link</a
+        >
       </div>
     </section>
 
     <!--Footer Content-->
     <footer>
-    <div class="container pt-3">
+      <div class="container pt-5">
         <p class="text-center text-muted small">
           KRB <i class="material-icons" style="font-size: 18px">mood</i> 2021
         </p>

@@ -9937,10 +9937,6 @@ body {
   max-width: 840px;
 }
 
-.img-fluid {
-  max-width: 180px;
-}
-
 .material-icons {
   display: inline-flex;
   vertical-align: top;
@@ -9957,8 +9953,8 @@ a:hover {
 
 /* Circle Styling Blob*/
 .circle {
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   padding: 2rem;
 }
