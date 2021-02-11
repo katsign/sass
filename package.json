@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/katsign/sass/issues"
   },
-  "homepage": "https://github.com/katsign/sass#readme"
+  "homepage": "https://github.com/katsign/sass#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
 }
