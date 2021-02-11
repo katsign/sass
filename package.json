@@ -1,0 +1,22 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "modifying a local bootstrap css lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katsign/sass.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "katsign",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katsign/sass/issues"
+  },
+  "homepage": "https://github.com/katsign/sass#readme"
+}
