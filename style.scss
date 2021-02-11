@@ -662,6 +662,18 @@ body {
     vertical-align: top;
 }
 
+/* Circle Styling Blob*/
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 2rem;
+}
+#orb {
+  background: rgb(255,240,245);
+  background: radial-gradient(circle, rgba(255,240,245,1) 0%, rgba(216,191,216,1) 100%);
+}
+
 /* Media Queries */ 
   @media (max-width: 690px) {
     .d-flex {

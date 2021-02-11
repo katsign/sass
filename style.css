@@ -10814,6 +10814,23 @@ body {
   vertical-align: top;
 }
 
+/* Circle Styling Blob*/
+#wrapper {
+  justify-content: center;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 2rem;
+}
+
+#orb {
+  background: lavenderblush;
+  background: radial-gradient(circle, lavenderblush 0%, thistle 100%);
+}
+
 /* Media Queries */
 @media (max-width: 690px) {
   .d-flex {
