@@ -4,6 +4,7 @@
 ## *Description*
 I am using this style gallery as a personal Sass tutorial. I will be updating the repo with new custom styles as I learn more about Sass in my spare time.
 
+![Screenshot of Homepage](./assets/screenshots/ss1.png)
 
 ## *Credits*
 ### :file_folder: [Bootstrap 4: Theming Docs](https://getbootstrap.com/docs/4.0/getting-started/theming/)
