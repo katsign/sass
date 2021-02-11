@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>linkDash</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!--Flex Row Header-->
+    <header>
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-around pt-5 pb-2">
+          <img
+            class="img-fluid rounded"
+            src="./assets/images/journal1.gif"
+            alt="rotating recent camera roll animation"
+          />
+
+          <i class="material-icons">mood</i>
+
+          <img
+            class="img-fluid rounded"
+            src="./assets/images/journal2.gif"
+            alt="rotating recent camera roll animation"
+          />
+
+          <i class="material-icons">cloud_queue</i>
+
+          <img
+            class="img-fluid rounded"
+            src="./assets/images/journal3.gif"
+            alt="rotating recent camera roll animation"
+          />
+        </div>
+      </div>
+    </header>
+
+<!--Dashboard: Utilities-->
+<section class="container">
+  <hr />
+  <h5 class="card-title text-right">
+    <i class="material-icons" style="font-size: 24px">apps</i>
+    Dashboard | <span style="font-weight: 100">Utilities</span>
+  </h5>
+  <hr />
+  <div class="d-flex align-items-center justify-content-around">
+    <!--Child 1-->
+    <div class="jumbotron circle" id="weather">
+      <a class="btn btn-dark" id="btnWeather"
+            href="https://katsign.github.io/weather-dashboard/"
+            target="_blank"
+            role="button"
+            >Weather<br>Dashboard</a>
+    </div>
+        <!--Child 2-->
+        <div class="jumbotron circle" id="planner">
+          <a class="btn btn-secondary" id="btnPlanner"
+          href="https://katsign.github.io/day-planner/"
+          target="_blank"
+          role="button"
+          >No-Stress<br>Day Planner</a>
+        </div>
+  </div>
+</section>
+
+
+    <!--Dashboard: Docs-->
+    <section class="container">
+      <hr />
+      <h5 class="card-title">
+        <i class="material-icons" style="font-size: 24px">art_track</i>
+        Dashboard | <span style="font-weight: 100">Docs</span>
+      </h5>
+      <hr />
+      <div class="d-flex align-items-center justify-content-around">
+        <!--Child 1-->
+        <div class="jumbotron" id="diary">
+          <h1 class="display-4">diary</h1>
+          <hr class="my-4" />
+          <p class="lead">
+            Drop a pic, a line, a doodle... it's yours.
+            <i class="material-icons" style="font-size: 16px">arrow_downward</i>
+          </p>
+          <a
+            class="btn btn-dark float-right"
+            href="https://docs.google.com/document/d/1FWc58Oeci9UAdG9QIVo97eWtNjnN-N-PbCZBvrmBazw/edit?usp=sharing"
+            target="_blank"
+            role="button"
+            >.doc</a
+          >
+        </div>
+        <!--Child 2-->
+        <div class="jumbotron" id="toDo">
+          <h1 class="display-4">to-do</h1>
+          <hr class="my-4" />
+          <p class="lead">
+            Tasks, Lists, Thrift Watch
+            <i class="material-icons" style="font-size: 16px">arrow_downward</i>
+          </p>
+          <a
+            class="btn btn-secondary float-right"
+            href="https://docs.google.com/document/d/1-M36I8DTyWizftKN4-ON0jRDu2eDanFMxcvsrlLtacQ/edit?usp=sharing"
+            target="_blank"
+            role="button"
+            >.doc</a
+          >
+        </div>
+        <!--Child 3-->
+        <div class="jumbotron" id="raps">
+          <h1 class="display-4">raps</h1>
+          <hr class="my-4" />
+          <p class="lead">
+            We want bars!
+            <i class="material-icons" style="font-size: 16px">arrow_downward</i>
+          </p>
+          <a
+            class="btn btn-light float-right"
+            href="https://docs.google.com/document/d/10nl9gBRHwNGNs90_8tSB7C5ae5AygJnr3AOzTbl_z3w/edit?usp=sharing"
+            target="_blank"
+            role="button"
+            >.doc</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!--Footer Content-->
+    <footer>
+    <div class="container pt-3">
+        <p class="text-center text-muted small">
+          KRB <i class="material-icons" style="font-size: 18px">mood</i> 2021
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

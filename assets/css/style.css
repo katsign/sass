@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    max-width: 840px;
+}
+
+.img-fluid {
+    max-width: 180px;
+}
+
+.material-icons{
+    display: inline-flex;
+    vertical-align: top;
+}
+
+/* Links */
+a {
+    color: #141414;
+}
+a:hover {
+    color: plum;
+}
+
+/* Circle Styling Blob*/
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 2rem;
+}
+#weather {
+    background: rgb(255,240,245);
+    background: radial-gradient(circle, rgba(255,240,245,1) 0%, rgba(216,191,216,1) 100%);
+}
+#planner {
+    background: rgb(250,235,215);
+    background: radial-gradient(circle, rgba(250,235,215,1) 0%, rgba(233,150,122,1) 100%);
+}
+#btnWeather, #btnPlanner {
+    margin-top: 8.5rem;
+    margin-left: 6.5rem;
+}
+
+/* Overwriting Jumbotron Blob */
+.jumbotron {
+    background-color: linen;
+    margin: .25rem;
+}
+#diary {
+    background-color: lavenderblush;
+}
+#toDo {
+    background-color: blanchedalmond;
+}
+#raps {
+    background-color: mistyrose;
+}
+
+/* Btn Styles Blob */
+.btn-dark {
+background-color: thistle;
+border-color: thistle;
+}
+.btn-dark:hover {
+    background-color: plum;
+    border-color: plum;
+}
+.btn-dark:active,
+.btn-dark:focus {
+    background-color: plum;
+    border-color: plum!important;
+    box-shadow: 0 0 0 0.2rem plum!important;
+}
+.btn-secondary {
+    background-color: peachpuff;
+    border-color: peachpuff;
+}
+.btn-secondary:hover {
+    background-color: darksalmon;
+    border-color: darksalmon;
+}
+.btn-secondary:active,
+.btn-secondary:focus {
+    background-color: darksalmon;
+    border-color: darksalmon!important;
+    box-shadow: 0 0 0 0.2rem darksalmon!important;
+}
+.btn-light {
+    color: white;
+    background-color: pink;
+    border-color: pink;
+}
+.btn-light:hover {
+    color: white;
+    background-color: palevioletred;
+    border-color: palevioletred;
+}
+.btn-light:active,
+.btn-light:focus {
+    color: white;
+    background-color: palevioletred;
+    border-color: palevioletred!important;
+    box-shadow: 0 0 0 0.2rem palevioletred!important;
+}
+
+/* Media Queries */ 
+  @media (max-width: 690px) {
+    .d-flex {
+      flex-direction: column;
+    }
+  }
