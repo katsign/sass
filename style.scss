@@ -9,31 +9,32 @@ $theme-colors: (
   "dark": plum,
 );
 
-$enable-gradients: true;
+$body-bg: whitesmoke;
 
 /* Text Utilities */
-$h1-font-size: 2rem;
-$h2-font-size: 1.85rem;
-$h3-font-size: 1.5rem;
-$h4-font-size: 1.25rem;
-$h5-font-size: 1.15rem;
+$h1-font-size: 2.5rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.75rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1.35rem;
+$h6-font-size: 1.25rem;
 
-$headings-font-weight: 300;
+$headings-font-weight: 400;
 
 $display1-size: 3.75rem;
-$display2-size: 3rem;
-$display3-size: 2.5rem;
-$display4-size: 2rem;
+$display2-size: 3.5rem;
+$display3-size: 3rem;
+$display4-size: 2.5rem;
 
-$display1-weight: 100;
+$display1-weight: 300;
 $display2-weight: 100;
 $display3-weight: 100;
 $display4-weight: 100;
 
-$mark-bg: lavenderblush;
-$code-color: khaki;
+$mark-bg: lavender;
+$code-color: plum;
 
-$jumbotron-bg: linen;
+$jumbotron-bg: mintcream;
 
 @import 'node_modules/bootstrap/scss/bootstrap';
 
