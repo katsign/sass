@@ -13,18 +13,18 @@ $theme-colors: (
 $enable-gradients: true;
 
 /* Text Utilities */
-$h1-font-size: 2;
-$h2-font-size: 1.85;
-$h3-font-size: 1.5;
-$h4-font-size: 1.25;
-$h5-font-size: 1.15;
+$h1-font-size: 2rem;
+$h2-font-size: 1.85rem;
+$h3-font-size: 1.5rem;
+$h4-font-size: 1.25rem;
+$h5-font-size: 1.15rem;
 
 $headings-font-weight: 300;
 
-$display1-size: 3.75;
-$display2-size: 3;
-$display3-size: 2.5;
-$display4-size: 2;
+$display1-size: 3.75rem;
+$display2-size: 3rem;
+$display3-size: 2.5rem;
+$display4-size: 2rem;
 
 $display1-weight: 100;
 $display2-weight: 100;
@@ -43,9 +43,6 @@ body {
     font-weight: 300;
 }
 
-.btn {
-  color: white;
-}
 
 .material-icons{
     display: inline-flex;
