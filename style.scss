@@ -7,7 +7,6 @@ $theme-colors: (
   "info": peachpuff,
   "light": lavenderblush,
   "dark": plum,
-  "link": whitesmoke,
 );
 
 $enable-gradients: true;
@@ -49,6 +48,9 @@ body {
 }
 
 /* Button Styles Blob */
+.btn {
+  padding: .25rem;
+}
 .btn-primary, .btn-primary:focus, 
 .btn-primary:active, .btn-primary:hover { color: white; }
 
@@ -96,9 +98,6 @@ body {
 
 .btn-outline-dark:focus, 
 .btn-outline-dark:active, .btn-outline-dark:hover { color: white; }
-
-.btn-outline-link:focus, 
-.btn-outline-link:active, .btn-outline-link:hover { color: white; }
 
 /* Circle Styling Blob*/
 .circle {
