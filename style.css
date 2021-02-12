@@ -10815,10 +10815,6 @@ body {
 }
 
 /* Circle Styling Blob*/
-#wrapper {
-  justify-content: center;
-}
-
 .circle {
   width: 150px;
   height: 150px;
