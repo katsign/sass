@@ -9992,7 +9992,7 @@ body {
 
 /* Button Styles Blob */
 .btn {
-  padding: 0.25rem;
+  margin: 0.25rem;
 }
 
 .btn-primary, .btn-primary:focus,
