@@ -9985,6 +9985,10 @@ body {
   font-weight: 300;
 }
 
+.container {
+  max-width: 1000px;
+}
+
 .material-icons {
   display: inline-flex;
   vertical-align: top;
