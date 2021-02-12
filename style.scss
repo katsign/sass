@@ -43,11 +43,62 @@ body {
     font-weight: 300;
 }
 
-
-.material-icons{
-    display: inline-flex;
-    vertical-align: top;
+.material-icons {
+  display: inline-flex;
+  vertical-align: top;
 }
+
+/* Button Styles Blob */
+.btn-primary, .btn-primary:focus, 
+.btn-primary:active, .btn-primary:hover { color: white; }
+
+.btn-secondary, .btn-secondary:focus, 
+.btn-secondary:active, .btn-secondary:hover { color: white; }
+
+.btn-success, .btn-success:focus, 
+.btn-success:active, .btn-success:hover { color: white; }
+
+.btn-danger, .btn-danger:focus, 
+.btn-danger:active, .btn-danger:hover { color: white; }
+
+.btn-warning, .btn-warning:focus, 
+.btn-warning:active, .btn-warning:hover { color: white; }
+
+.btn-info, .btn-info:focus, 
+.btn-info:active, .btn-info:hover { color: white; }
+
+.btn-light, .btn-light:focus, 
+.btn-light:active, .btn-light:hover { color: white; }
+
+.btn-dark, .btn-dark:focus, 
+.btn-dark:active, .btn-dark:hover { color: white; }
+
+.btn-outline-primary:focus, 
+.btn-outline-primary:active, .btn-outline-primary:hover { color: white; }
+
+.btn-outline-secondary:focus, 
+.btn-outline-secondary:active, .btn-outline-secondary:hover { color: white; }
+
+.btn-outline-success:focus, 
+.btn-outline-success:active, .btn-outline-success:hover { color: white; }
+
+.btn-outline-danger:focus, 
+.btn-outline-danger:active, .btn-outline-danger:hover { color: white; }
+
+.btn-outline-warning:focus, 
+.btn-outline-warning:active, .btn-outline-warning:hover { color: white; }
+
+.btn-outline-info:focus, 
+.btn-outline-info:active, .btn-outline-info:hover { color: white; }
+
+.btn-outline-light:focus, 
+.btn-outline-light:active, .btn-outline-light:hover { color: white; }
+
+.btn-outline-dark:focus, 
+.btn-outline-dark:active, .btn-outline-dark:hover { color: white; }
+
+.btn-outline-link:focus, 
+.btn-outline-link:active, .btn-outline-link:hover { color: white; }
 
 /* Circle Styling Blob*/
 .circle {
