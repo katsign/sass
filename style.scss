@@ -35,6 +35,14 @@ $mark-bg: lavender;
 $code-color: plum;
 
 $jumbotron-bg: lavender;
+$jumbotron-padding: 2rem;
+$jumbotron-color: darkslategrey;
+
+$btn-active-box-shadow: none;
+
+$dropdown-min-width: 6rem;
+$dropdown-link-hover-bg: whitesmoke;
+$dropdown-link-disabled-color: linen;
 
 @import 'node_modules/bootstrap/scss/bootstrap';
 
@@ -54,6 +62,10 @@ body {
 .btn {
   margin: .25rem;
 }
+.btn-group, .active {
+  color: white;
+}
+
 .btn-primary, .btn-primary:focus, 
 .btn-primary:active, .btn-primary:hover { color: white; }
 

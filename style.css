@@ -2965,7 +2965,7 @@ input[type=button].btn-block {
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 10rem;
+  min-width: 6rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
@@ -3135,7 +3135,7 @@ input[type=button].btn-block {
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #e9ecef;
+  background-color: whitesmoke;
 }
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
@@ -3143,7 +3143,7 @@ input[type=button].btn-block {
   background-color: thistle;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
-  color: #adb5bd;
+  color: linen;
   pointer-events: none;
   background-color: transparent;
 }
@@ -4778,6 +4778,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
+  color: darkslategrey;
   background-color: lavender;
   border-radius: 0.3rem;
 }
@@ -9946,6 +9947,10 @@ body {
 /* Button Styles Blob */
 .btn {
   margin: 0.25rem;
+}
+
+.btn-group, .active {
+  color: white;
 }
 
 .btn-primary, .btn-primary:focus,
