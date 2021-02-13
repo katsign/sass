@@ -135,6 +135,53 @@
           >Sample<br />Dark</a
         >
       </div>
+      <hr>
+      <!--Row-->
+      <div class="d-flex align-items-center justify-content-around">Drop:
+      <div class="btn-group">
+        <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Click
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Item</a>
+          <a class="dropdown-item" href="#">Item</a>
+        </div>
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Click
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Item</a>
+          <a class="dropdown-item" href="#">Item</a>
+        </div>
+        <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Click
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Item</a>
+          <a class="dropdown-item" href="#">Item</a>
+        </div>
+        </div>
+        <!--Lg Btns-->Large:
+        <div class="btn-group">
+        <button type="button" class="btn btn-dark btn-lg">
+        Lg Btn
+        </button>
+        <button type="button" class="btn btn-outline-primary btn-lg">
+        Lg Btn
+      </button>
+    </div>
+    <!--Radio Btns-->Radio:
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-info active">
+        <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+      </label>
+      <label class="btn btn-info">
+        <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+      </label>
+      <label class="btn btn-info">
+        <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+      </label>
+    </div>
     </section>
 
     <!--Components: Boxes-->
@@ -146,13 +193,19 @@
       </h5>
       <hr />
       <div class="d-flex align-items-center justify-content-around">
-        <div class="jumbotron">
-          <h3>Jumbo.</h3>
+        <div class="jumbotron m-0">
+          <p class="display-3">Jumbo.</p>
           <p class="lead">This is a sample -tron.</p>
           <hr class="my-4">
           <a class="btn btn-outline-secondary" href="#" role="button">Learn more.</a>
         </div>
+        <div class="card" style="width: 22rem;">
+          <img class="card-img-top" src="./assets/screenshots/ss1.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
         </div>
+
     </section>
 
     <!--Footer Content-->
@@ -163,5 +216,10 @@
         </p>
       </div>
     </footer>
+
+    <!--JS Bundle-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
