@@ -131,6 +131,24 @@ body {
   background: rgb(255,240,245);
   background: radial-gradient(circle, rgba(255,240,245,1) 0%, rgba(216,191,216,1) 100%);
 }
+#orb2 {
+  background: rgb(240,255,240);
+  background: radial-gradient(circle, rgba(240,255,240,1) 0%, rgba(107,142,35,1) 100%);
+}
+#orb3 {
+  background: rgb(230,230,250);
+  background: radial-gradient(circle, rgba(230,230,250,1) 0%, rgba(221,160,221,1) 100%);
+}
+#orb4 {
+  background: rgb(255,218,185);
+  background: radial-gradient(circle, rgba(255,218,185,1) 0%, rgba(255,165,0,1) 100%);
+}
+#cloud {
+  border-radius: 10px;
+  max-width: 980px;
+  padding: 1.5rem;
+}
+
 
 /* Media Queries */ 
   @media (max-width: 690px) {

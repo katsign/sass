@@ -10046,6 +10046,26 @@ body {
   background: radial-gradient(circle, lavenderblush 0%, thistle 100%);
 }
 
+#orb2 {
+  background: honeydew;
+  background: radial-gradient(circle, honeydew 0%, olivedrab 100%);
+}
+
+#orb3 {
+  background: lavender;
+  background: radial-gradient(circle, lavender 0%, plum 100%);
+}
+
+#orb4 {
+  background: peachpuff;
+  background: radial-gradient(circle, peachpuff 0%, orange 100%);
+}
+
+#cloud {
+  border-radius: 10px;
+  max-width: 980px;
+}
+
 /* Media Queries */
 @media (max-width: 690px) {
   .d-flex {
