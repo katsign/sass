@@ -44,6 +44,12 @@ $dropdown-min-width: 6rem;
 $dropdown-link-hover-bg: whitesmoke;
 $dropdown-link-disabled-color: linen;
 
+$form-group-margin-bottom: 1.25rem;
+
+$list-group-bg: linen;
+$list-group-border-color: peachpuff;
+$list-group-border-width: 2px;
+
 @import 'node_modules/bootstrap/scss/bootstrap';
 
 body {
