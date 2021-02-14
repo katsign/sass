@@ -77,6 +77,12 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+.form-inline {
+  display: flex;
+  flex-flow: nowrap;
+  align-items: center;
+}
+
 .container {
   max-width: 1000px;
 }
